@@ -25,7 +25,7 @@ new Function("MOZ_SourceMap", "exports", function() {
     code.push("exports.describe_ast = " + describe_ast.toString());
     return code.join("\n\n");
 }())(
-    require("source-map"),
+    require("../../source-map"),
     UglifyJS
 );
 

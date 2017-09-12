@@ -1,10 +1,10 @@
 {
-  "name": "uglify-js",
+  "name": "uglyjs",
   "description": "JavaScript parser, mangler/compressor and beautifier toolkit",
   "homepage": "http://lisperator.net/uglifyjs",
   "author": "Mihai Bazon <mihai.bazon@gmail.com> (http://lisperator.net/)",
   "license": "BSD-2-Clause",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "engines": {
     "node": ">=0.8.0"
   },
@@ -13,10 +13,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mishoo/UglifyJS2.git"
+    "url": "https://github.com/mixartemev/UglifyJS2.git"
   },
   "bugs": {
-    "url": "https://github.com/mishoo/UglifyJS2/issues"
+    "url": "https://github.com/mixartemev/UglifyJS2/issues"
   },
   "main": "tools/node.js",
   "bin": {
@@ -40,5 +40,11 @@
   "scripts": {
     "test": "node test/run-tests.js"
   },
-  "keywords": ["uglify", "uglify-js", "minify", "minifier", "es5"]
+  "keywords": [
+    "uglify",
+    "uglify-js",
+    "minify",
+    "minifier",
+    "es5"
+  ]
 }
